@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons+Outlined');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    
+    font-family:Montserrat ;
+}
+
+.header{
+    margin-left :30%;
+    padding: 10px;
+    min-width: 70%;
+    color: floralwhite;
+    font-weight: 700;
+}
+.bg-header{
+    
+    position: fixed;
+    background: #904490 ;
+    min-width: 100%;
+    
+    line-height: 2.6em;
+}
+
+
+form > i{
+    background: floralwhite;
+    padding: 10px;
+    border: 1px solid #904490;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+form:hover > i{
+    background: #904490;
+    color: floralwhite;
+    border-left:1px floralwhite solid;
+}
+
+form:hover > input{
+    min-width: 70%;
+    border: 2px solid #904490;
+}
+.block:hover > i{
+    color: #904490;
+}
+.block:hover > a{
+    color: #904490;
+}
+form{
+    
+    max-width: 100%;
+    position: fixed;
+    margin-top: 19%;
+    display: flex;
+}
+form > input{
+    background: floralwhite;
+    padding: 10px;
+    border: 1px solid #904490;
+    
+    transition: width .5s;
+    width: 70%;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+form > input::placeholder{
+    font-family:Montserrat ;
+    
+}
+form > span{
+    
+    color: rgb(37, 36, 32);
+    padding: 10px;
+}
+form > span:hover{
+    background-color: rgba(54, 52, 48, 0.473);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    
+    padding: 10px;
+    border-top: 1px darkslategray solid;
+    min-width: 100%;
+    background-color: rgb(253, 242, 220);
+}
+#home{
+    margin-left: 90%;
+}
+#store{
+    margin-left: 100%;
+}
+#person{
+    margin-left: 100%;
+}
+#sell{
+    margin-left: 100%;
+}
+.box{
+    position:relative;
+    float: left;
+    
+    width: 25%;
+}
+
+.block{
+    float: left;
+    width: 20%;
+}
+.block a{
+    color: darkslategray;
+    text-decoration: none;
+    font-size: 77.77%;
+    text-align: center;
+}
