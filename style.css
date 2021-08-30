@@ -17,6 +17,9 @@ body{
     color: floralwhite;
     font-weight: 700;
 }
+.header h2{
+     font-weight:1000;
+}
 .bg-header{
     
     position: fixed;
